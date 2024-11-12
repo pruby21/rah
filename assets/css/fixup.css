@@ -1,8 +1,8 @@
-html body {
+html, body { 
     height: 100%; 
-    margin: 0; /* Set margin to 0 to avoid white edges */
+    margin: 0;
     position: relative; 
-    background-image: url('/Users/pitchayaruby/projects/heart/assets/images/cloudisland1.jpg');
+    background-image: url('../images/pixelstarter.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,22 +10,20 @@ html body {
 }
 
 h1 {
-    text-align: center;
-    margin-top: 5%;
-    color: black;
-    font-size: 5vw;
-    padding: 0;
+    text-align: center; 
+    margin-top: 5%; /* Space from the top */
+    color: floralwhite; 
+    font-size: 5vw; 
+    padding: 0; 
 }
 
 h2 {
-    text-align: center;
-    margin-top: 1%; 
-    color: black;
+    text-align: center; 
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    color: floralwhite; 
     font-size: 2rem; 
     padding: 0; 
-    max-width: 50%;
-    margin-left: auto; 
-    margin-right: auto; 
 }
 
 .button-container {
@@ -33,7 +31,7 @@ h2 {
     margin-top: 20px; 
 }
 
-button {
+button { 
     background-color: #B2FFB2; 
     border: 3px solid #333; /* dark border */
     border-radius: 0; /* square corners = pixelated look */
@@ -44,7 +42,7 @@ button {
     transition: all 0.2s; /* smooth transitions for hover effects */
     margin: 5px 40px; 
     padding: 15px 40px; 
-    box-shadow: 2px 2px 0 #666;
+    box-shadow: 2px 2px 0 #666; /* pixelated shadow effect */
 }
 
 button:hover {
@@ -57,8 +55,6 @@ button:active {
     transform: translate(2px, 2px); /* move further down on click */
     box-shadow: 1px 1px 0 #666; /* reduce shadow when pressed */
 }
-
-
 .pixelify-sans-unique {
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;

@@ -2,7 +2,7 @@ html body {
     height: 100%; 
     margin: 0; /* Set margin to 0 to avoid white edges */
     position: relative; 
-    background-image: url('/Users/pitchayaruby/projects/heart/assets/images/underwatertest.jpg');
+    background-image: url('../images/cloudisland1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ h1 {
     color: black;
     font-size: 5vw;
     padding: 0;
-}  
+}
 
 h2 {
     text-align: center;
@@ -57,6 +57,7 @@ button:active {
     transform: translate(2px, 2px); /* move further down on click */
     box-shadow: 1px 1px 0 #666; /* reduce shadow when pressed */
 }
+
 
 .pixelify-sans-unique {
     font-family: "Pixelify Sans", sans-serif;

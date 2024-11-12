@@ -1,0 +1,23 @@
+html body {
+    height: 100%; 
+    margin: 0; /* Set margin to 0 to avoid white edges */
+    position: relative; 
+    background-image: url('../images/cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    color: floralwhite;
+    font-size: 5vw;
+    padding: 0;
+}
+
+.pixelify-sans-unique {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+}
