@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white; /* Set text color to white for visibility */
+    font-family: 'Pixelify Sans', sans-serif; /* Ensure the font is applied */
+    margin: 0;
+    height: 100vh; /* Make sure the body takes up the full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    color: floralwhite;
+    font-size: 5vw;
+    padding: 0;
+}

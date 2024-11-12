@@ -1,0 +1,64 @@
+html body {
+    height: 100%; 
+    margin: 0; /* Set margin to 0 to avoid white edges */
+    position: relative; 
+    background-image: url('/Users/pitchayaruby/projects/heart/assets/images/underwatertest.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+    font-size: 5vw;
+    padding: 0;
+}  
+
+h2 {
+    text-align: center;
+    margin-top: 1%; 
+    color: black;
+    font-size: 2rem; 
+    padding: 0; 
+    max-width: 50%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.button-container {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+button {
+    background-color: #B2FFB2; 
+    border: 3px solid #333; /* dark border */
+    border-radius: 0; /* square corners = pixelated look */
+    color: #333; 
+    font-family: "Pixelify Sans", sans-serif; 
+    font-size: 1.8rem; 
+    cursor: pointer; /* change cursor to pointer on hover */
+    transition: all 0.2s; /* smooth transitions for hover effects */
+    margin: 5px 40px; 
+    padding: 15px 40px; 
+    box-shadow: 2px 2px 0 #666;
+}
+
+button:hover {
+    background-color: #ffdd57; /* lighter color on hover */
+    box-shadow: 4px 4px 0 #666; /* shadow on hover for a pressed effect */
+    transform: translate(1px, 1px); /* slightly move the button down and right */
+}
+
+button:active {
+    transform: translate(2px, 2px); /* move further down on click */
+    box-shadow: 1px 1px 0 #666; /* reduce shadow when pressed */
+}
+
+.pixelify-sans-unique {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+}
